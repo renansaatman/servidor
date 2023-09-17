@@ -14,7 +14,7 @@ const placeId = 'ChIJD9oZj8H5sgcRDqC1udkeumQ'
 app.get('/reviews', async (req, res) => {
   try {
     const response = await axios.get(
-      `https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&key=${apiKey}&fields=reviews`,
+      `https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&key=${apiKey}&fields=reviews&language=pt-BR`,
       {
         headers: {
           'Access-Control-Allow-Origin': '*'
