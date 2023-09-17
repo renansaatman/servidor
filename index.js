@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 const port = process.env.PORT ? Number(process.env.PORT) : 3001
 
-const apiKey = 'AIzaSyBIC8Mld1J2mBWi2OZunV_KZa8g7AwIbI8'
+const apiKey = 'AIzaSyBQjCFsubPj4n64oX5d9QeUQiJO5EkxTRA'
 const placeId = 'ChIJD9oZj8H5sgcRDqC1udkeumQ'
 
 app.get('/reviews', async (req, res) => {
